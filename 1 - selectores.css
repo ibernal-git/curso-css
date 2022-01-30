@@ -1,0 +1,62 @@
+/* SELECTORES CSS */
+
+/*
+  Selectores simples
+      Selectores elementales
+        Selectore Universal -> * (selecciona todos los elementos)
+        Selector de tipo o etiqueta -> Nombre de etiqueta
+      Selectores de atributo
+        id -> id des elemento
+        clase -> Clase del elemento
+        otros atributos
+          [atributo] -> [href]
+          [atributo=valor] -> [href="https://google.es"]
+          [atributo^=valor] -> [href^="color"] para seleccionar los que empiezan con color
+          [atributo*=valor] -> igual que el de antes pero la coincidencia se realiza en cualquier lado no solo si empieza con ese valor
+          [atributo$=valor] -> si termina con ese valor
+          [atributo|=valor] -> Se usa para lang="en" ya que funciona con en-
+  Selectores Compuestos
+      Selectores Agrupados
+        .text, text-2, text-3, text-4 {
+        }
+      Selectores Combinadores
+        Selector de hijo directo
+          .container > p
+        Selector descendiente
+          div p
+          .text-2 strong
+          div .tittle-2
+          (es decir hay que poner un espacio entre atributos)
+          (recomendable como máximo 2 elementos)
+        Selector de hermano siguiente
+          Sirve para seleccionar elementos del mismo nivel
+          .text-2 + h2
+          div + p
+          #titulo + span
+          Seleccionar todos los hermanos siguientes ->
+          -> ~
+          .text-2 ~ p
+        
+
+      Pseudoclases - Pseudoelementos
+*/
+
+/* Selectores elementales */
+* {
+  background-color: lightcoral;
+}
+h1 {
+  background-color: lightcyan;
+}
+p {
+  background-color: lightgreen;
+}
+
+/* Selectores de atributo */
+
+#title {
+  background-color: lightgreen;
+}
+.firstP {
+  background-color: lightsalmon;
+}

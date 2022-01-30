@@ -1,0 +1,44 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.block {
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+}
+
+.inline {
+  background-color: lightsalmon;
+  color: inherit;
+  /* ESTO NO FUNCIONA -> */
+  width: 200px;
+  height: 200px;
+
+  /* 
+  
+  Los elementos en línea como son los
+  enlaces no se les puede aplicar propiedades
+  de tamaño.
+
+  El tamaño lo determina su contenido
+  
+  */
+}
+
+/*
+
+Margin es un shorthand de 
+margint-top, margin-right, margin.bottom y
+margin-left
+
+margin admite hasta 4 valores y se computa
+siguiendo las agujas del reloj
+
+4 valores -> margin: top right bottom left
+3 valores -> margin: top left/right bottom
+2 valores -> margin: top/bottom left/right
+1 valor -> margin: top/right/bottom/left
+
+*/

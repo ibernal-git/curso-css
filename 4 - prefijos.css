@@ -1,0 +1,45 @@
+/*
+
+Para utilizar CSS moderno y poder
+añadir prefijos de nevegadores de
+las funcinalidades que todavía no
+forman parte del estandar pero sí
+que las soportan los navegadores:
+
+Los navegadores añaden prefijos:
+  -moz
+  -o
+  -webkit
+  -ms
+  ....
+Para evitar tener que añadir esos
+prefijos en nuestro CSS existe
+autoprefixer
+
+Como estoy utilizando vite y
+soporta de forma netiva las
+configuraciones de PostCSS...
+
+He instalado postcss y prefixer
+
+npm install -D -E postcss autoprefixer
+
+He creado el archivo de config
+que ya lo lee automaticamente Vite
+
+postcss.config.css
+
+En este archivo he añadido lo
+siguiente:
+
+module.exports = {
+  plugins: [require('autoprefixer')],
+}
+
+Con esto debería procesar de forma
+automática los archivos CSS que 
+tengo importados en el html y
+crear el archivo css final con
+los prefijos añadidos.
+
+*/
