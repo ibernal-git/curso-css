@@ -2,16 +2,16 @@
 
 ## Lección 1
 
-[Selectores](1_Selectores.md)
+[Selectores](1-selectores/selectores.md)
 
 ## Lección 2
 
-[Funcionamiento CSS](2_Funcionamiento_CSS.md)
+[Funcionamiento CSS](2-funcionamiento-css/funcionamiento-css.md)
 
 ## Lección 3
 
-[Normalizar estilos CSS](3_Normalizar_Estilos/Normalizar_Estilos.md)
+[Normalizar estilos CSS](3-normalizar-estilos/normalizar-estilos.md)
 
 ## Lección 4
 
-[Prefijos CSS](4_Prefijos_CSS.md)
+[Prefijos CSS](4-prefijos/prefijos-css.md)
