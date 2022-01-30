@@ -4,6 +4,7 @@
 
 - [Margin](margin.md)
 - [Padding](padding.md)
+- [Border](border.md)
 
 ## ¿Cómo funciona el modelo?
 
