@@ -5,6 +5,7 @@
 - [Margin](margin.md)
 - [Padding](padding.md)
 - [Border](border.md)
+- [Box sizing](box-sizing.md)
 
 ## ¿Cómo funciona el modelo?
 
