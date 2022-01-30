@@ -66,3 +66,25 @@ siguiendo las agujas del reloj
 1 valor -> margin: top/right/bottom/left
 
 */
+
+/*
+
+Los navegadores suelen tener un margen sobre
+el body de 8px asi que si creamos un menú veremos
+ese espacio. 
+
+*/
+.header {
+  background-color: red;
+  height: 50px;
+}
+
+/*
+
+Para evitarlo podemos estilar el elemento body
+
+*/
+
+body {
+  margin: 0;
+}
