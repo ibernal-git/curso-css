@@ -19,3 +19,7 @@
 ## Lección 5
 
 [Box Model](5-box-model/box-model.md)
+
+## Lección 6
+
+[Border Radius](6-border-radius/border-radius.md)
