@@ -3,6 +3,7 @@
 ## Menú de la lección:
 
 - [Margin](margin.md)
+- [Padding](padding.md)
 
 ## ¿Cómo funciona el modelo?
 
