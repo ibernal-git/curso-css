@@ -34,3 +34,7 @@ Existen otras medidas como:
 ## rem vs em
 
 [Diferencias entre rem y em](rem-vs-em.md)
+
+## % vs auto
+
+[Diferencias entre % y auto](%-vs-auto.md)
