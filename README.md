@@ -43,3 +43,7 @@
 ## Lección 11
 
 [Text Align](11-text-align/text-align.md)
+
+## Lección 12
+
+[Box Shadow](12-box-shadow/box-shadow.md)
