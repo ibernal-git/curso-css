@@ -39,3 +39,7 @@
 ## Lección 10
 
 [Outline](9-display/display.md)
+
+## Lección 11
+
+[Text Align](11-text-align/text-align.md)
