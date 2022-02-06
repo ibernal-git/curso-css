@@ -30,3 +30,7 @@ Existen otras medidas como:
 - ex -> Altura x de la fuente del elemento
 - ch -> La medida del ancho del glifo "0" de la letra del elemento
 - lh -> Altura de la línea del elemento
+
+## rem vs em
+
+[Diferencias entre rem y em](rem-vs-em.md)
