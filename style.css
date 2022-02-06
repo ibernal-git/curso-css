@@ -15,20 +15,16 @@ body {
 
 .box-1 {
   background-color: lightcoral;
+  position: absolute;
+
+  /*
+  
+  La caja pierde su espacio reservado y vemos como
+  box-2 sube hacia arriba
+  
+  */
 }
 
 .box-2 {
   background-color: lightgreen;
-
-  /* 
-
-  Con absolute el elemento pierde sus medidas y como
-  en este ejemplo no tiene ningún padre posicionado
-  se posiciona en función del html.
-
-  */
-
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
