@@ -42,3 +42,7 @@ Existen otras medidas como:
 ## Viewport
 
 [Medidas para el viewport](viewport.md)
+
+## Limitadores de ancho y alto
+
+[Limitadores](limitadores.md)
