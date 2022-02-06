@@ -9,29 +9,10 @@ body {
 
 .box {
   background-color: #666;
-  width: 100px;
+  width: 200px;
+  padding: 50px;
   text-align: center;
   margin: 50px auto;
-  border: 2px solid lightcoral;
-}
-
-.text {
-  text-align: center;
-}
-
-.link {
-  color: white;
-  background-color: #666;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  display: block;
-  text-align: center;
-  margin-bottom: 20px;
-}
-img {
-  width: 500px;
-}
-.img-container {
-  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 30px 0 -20px red;
 }
