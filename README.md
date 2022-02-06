@@ -31,3 +31,7 @@
 ## Lección 8
 
 [Colapso vertical de márgenes](8-colapso-de-margenes/colapso-vertical-de-margenes.md)
+
+## Lección 9
+
+[Display](9-display/display.md)
