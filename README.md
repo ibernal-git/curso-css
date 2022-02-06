@@ -27,3 +27,7 @@
 ## Lección 7
 
 [Overflow](7-overflow/overflow.md)
+
+## Lección 8
+
+[Colapso vertical de márgenes](8-colapso-de-margenes/colapso-vertical-de-margenes.md)
