@@ -35,3 +35,7 @@
 ## Lección 9
 
 [Display](9-display/display.md)
+
+## Lección 10
+
+[Outline](9-display/display.md)
