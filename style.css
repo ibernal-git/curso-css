@@ -20,28 +20,43 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+
+  /*
+
+  Si tenemos dos elementos posicionados se mostrará por
+  encima los elementos siguiendo el orden del propio
+  documento html.
+
+  Si hay un elemnto posicionado y otro que no el que se
+  mostrará por encima es el elemento posicionado.
+
+  En este caso los dos están posicionados pero los
+  artículos vienen después en el html.
+
+  Por eso como quiero que el menú se posicione por encima
+  de article-title tengo que cambiar z-index.
+
+  Así al hacer scroll cuando se mueve article-title
+  pasa por detrás del menú.
+
+  Con z-index prevalece el número mayor, si tienes varios
+  elementos con z-index se posicionarán en función del
+  mayor.
+
+  Con z-index también hay que tener en cuenta que no podemos
+  posicionar al padre por encima del hijo. No va a funcionar.
+
+  Lo que si que podemos hacer es en el hijo, posicionarlo
+  por detrás del padre, por ejemplo con un z-index: -1px;
+  y que el padre no tenga z-index o poner z-index: auto;
+
+  De esa manera, poniendo el z-index en el hijo y el padre
+  sin z-index si que lo podemos hacer.
+
+  */
+
   z-index: 1;
 }
-
-/*
-
-Si aplicamos position sticky el posicionamiento es de acuerdo al flujo normal
-del documento pero luego es desplazado con relación al alto del padre.
-
-En este caso article-title está dentro de article y una vez que recorremos
-todo este elemento contenedor deja de comportarse como si fuera fixed y
-el siguiente elemento es el que pasa a quedarse fijado.
-
-Si el padre no tiene un alto declarado o es más pequeño que lo qu e recorre
-el scroll position stiky no funcionará.
-
-Tampoco funcionará si el padre tiene declarado overflow: hidden;
-
-Es decir, es necesario que el padre tenga un alto suficiente para ver
-el correctofuncionamiento de position: sticky;
-
-
-*/
 
 .article-title {
   position: sticky;
